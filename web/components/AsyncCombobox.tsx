@@ -61,7 +61,9 @@ export function AsyncCombobox({ value, onChange, placeholder = "Search...", labe
     const shouldFetch = open && debouncedQuery.length >= 1;
     const fetchUrl = shouldFetch ? `${apiBase}${apiPath}?query=${encodeURIComponent(debouncedQuery)}` : null;
 
-    const fetcher = (url: string) => fetch(url).then(r => {
+    const fetcher = (url: string) => fetch(url, {
+        headers: { 'ngrok-skip-browser-warning': 'true' }
+    }).then(r => {
         if (!r.ok) throw new Error("Backend Unavailable");
         return r.json();
     });

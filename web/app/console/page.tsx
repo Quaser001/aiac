@@ -36,7 +36,10 @@ export default function ConsoleOverviewPage() {
             // 1. Mechanism Analysis (Layer 2A/1.5)
             const res = await fetch(`${API_BASE}/specialist/analyze/mechanism`, {
                 method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
+                headers: {
+                    'Content-Type': 'application/json',
+                    'ngrok-skip-browser-warning': 'true'
+                },
                 body: JSON.stringify({
                     gene_id: determinant,
                     family: 'Unknown',
@@ -50,7 +53,9 @@ export default function ConsoleOverviewPage() {
 
             // 2. Structure Status Check (Layer 3)
             try {
-                const structRes = await fetch(`${API_BASE}/structure/${determinant}`);
+                const structRes = await fetch(`${API_BASE}/structure/${determinant}`, {
+                    headers: { 'ngrok-skip-browser-warning': 'true' }
+                });
                 if (structRes.ok) {
                     const structData = await structRes.json();
                     setStructureStatus(structData);
@@ -61,7 +66,9 @@ export default function ConsoleOverviewPage() {
 
             // 3. Docking Status Check (Layer 4)
             try {
-                const dockingRes = await fetch(`${API_BASE}/docking/status`);
+                const dockingRes = await fetch(`${API_BASE}/docking/status`, {
+                    headers: { 'ngrok-skip-browser-warning': 'true' }
+                });
                 if (dockingRes.ok) {
                     const dockingData = await dockingRes.json();
                     setDockingStatus(dockingData);
