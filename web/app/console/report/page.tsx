@@ -9,7 +9,7 @@ import Link from 'next/link';
 export default function ReportPage() {
     const {
         analysisResult,
-        clinicalResult, // NOTE: Need to expose this in context if we want it here. Or derive it.
+        // clinicalResult, // NOTE: Need to expose this in context if we want it here. Or derive it.
         // Actually, let's keep it simple. Only export what we have in Context. 
         // We can re-derive clinical info or just export the specialist result.
         // For a clean refactor, I should add clinicalResult to Context, but for now I will skip re-adding it to context interface to save complex refactoring steps.
