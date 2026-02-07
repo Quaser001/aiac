@@ -135,7 +135,7 @@ export default function ConsoleOverviewPage() {
                             value={determinant}
                             onChange={(val) => setDeterminant(val)}
                             placeholder="Search determinants (e.g. NDM-1)..."
-                            searchUrl="http://localhost:8000/specialist/genes/search"
+                            endpoint="/specialist/genes/search"
                         />
 
                         {/* Tier-1 Coverage Status Panel */}
