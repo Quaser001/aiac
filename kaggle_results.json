@@ -1,0 +1,42 @@
+[
+  {
+    "ref": "imtkaggleteam/pathogen-detection-salmonella-enterica",
+    "title": "Pathogen Detection | Salmonella Enterica"
+  },
+  {
+    "ref": "patricklford/water-and-air-quality",
+    "title": "Water Quality -  Every Drop Matters."
+  },
+  {
+    "ref": "nwheeler443/gono-unitigs",
+    "title": "Predicting antibiotic resistance in gonorrhoea"
+  },
+  {
+    "ref": "sayansh001/microbes-dataset",
+    "title": "Microbes Dataset"
+  },
+  {
+    "ref": "imtkaggleteam/tuberculosis",
+    "title": "Tuberculosis"
+  },
+  {
+    "ref": "kanchana1990/antibiotic-dataset",
+    "title": "Antibiotic Dataset"
+  },
+  {
+    "ref": "adilimadeddinehosni/multi-resistance-antibiotic-susceptibility",
+    "title": "\ud83e\uddec Multi-Resistance Antibiotic Susceptibility"
+  },
+  {
+    "ref": "jiscecseaiml/pseudomonas-aeruginosa",
+    "title": "Pseudomonas aeruginosa Protein"
+  },
+  {
+    "ref": "alamshihab075/e-coli-data-poultry-and-dairy-in-bangladesh",
+    "title": "E. coli data Poultry and Dairy "
+  },
+  {
+    "ref": "drscarlat/driams",
+    "title": "DRIAMS - Resistance to Antibiotics"
+  }
+]

@@ -1,0 +1,1 @@
+{'status': 'completed', 'score': -0.9807, 'unit': 'kcal/mol', 'pose_file': '/docking_results/NDM-1_meropenem_pose.pdbqt', 'disclaimer': 'Research-mode docking feasibility (Vina scoring). Hypothesis support only. Ligand/receptor preparation is simplified for demo. Not a production chemistry pipeline.'}

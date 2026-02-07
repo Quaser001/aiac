@@ -1,0 +1,23 @@
+{
+    "NDM-1": {
+        "pdb_id": "4RL2"
+    },
+    "KPC-2": {
+        "pdb_id": "2OV5"
+    },
+    "OXA-48": {
+        "pdb_id": "3HBR"
+    },
+    "VIM-1": {
+        "pdb_id": "4PG4"
+    },
+    "IMP-1": {
+        "pdb_id": "1DDK"
+    },
+    "MecA": {
+        "pdb_id": "1MWT"
+    },
+    "VanA": {
+        "pdb_id": "1E4E"
+    }
+}

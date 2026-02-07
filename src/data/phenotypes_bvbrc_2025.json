@@ -1,0 +1,92 @@
+[
+    {
+        "organism_name": "Klebsiella pneumoniae",
+        "drug_class": "Carbapenem",
+        "resistant_count": 335,
+        "sample_count": 540,
+        "source_dataset": "BV-BRC AMR Phenotypes 2023",
+        "year": 2023,
+        "region": "Global"
+    },
+    {
+        "organism_name": "Klebsiella pneumoniae",
+        "drug_class": "Cephalosporin",
+        "resistant_count": 820,
+        "sample_count": 1200,
+        "source_dataset": "BV-BRC AMR Phenotypes 2023",
+        "year": 2023,
+        "region": "Global"
+    },
+    {
+        "organism_name": "Klebsiella pneumoniae",
+        "drug_class": "Aminoglycoside",
+        "resistant_count": 450,
+        "sample_count": 1100,
+        "source_dataset": "BV-BRC AMR Phenotypes 2023",
+        "year": 2023,
+        "region": "Global"
+    },
+    {
+        "organism_name": "Escherichia coli",
+        "drug_class": "Carbapenem",
+        "resistant_count": 45,
+        "sample_count": 3200,
+        "source_dataset": "BV-BRC AMR Phenotypes 2023",
+        "year": 2023,
+        "region": "Global"
+    },
+    {
+        "organism_name": "Escherichia coli",
+        "drug_class": "Cephalosporin",
+        "resistant_count": 890,
+        "sample_count": 3200,
+        "source_dataset": "BV-BRC AMR Phenotypes 2023",
+        "year": 2023,
+        "region": "Global"
+    },
+    {
+        "organism_name": "Staphylococcus aureus",
+        "drug_class": "Penicillin",
+        "resistant_count": 2800,
+        "sample_count": 3000,
+        "source_dataset": "BV-BRC AMR Phenotypes 2023",
+        "year": 2023,
+        "region": "Global"
+    },
+    {
+        "organism_name": "Staphylococcus aureus",
+        "drug_class": "Glycopeptide",
+        "resistant_count": 2,
+        "sample_count": 3000,
+        "source_dataset": "BV-BRC AMR Phenotypes 2023",
+        "year": 2023,
+        "region": "Global"
+    },
+    {
+        "organism_name": "Pseudomonas aeruginosa",
+        "drug_class": "Carbapenem",
+        "resistant_count": 320,
+        "sample_count": 1500,
+        "source_dataset": "BV-BRC AMR Phenotypes 2023",
+        "year": 2023,
+        "region": "Global"
+    },
+    {
+        "organism_name": "Pseudomonas aeruginosa",
+        "drug_class": "Aminoglycoside",
+        "resistant_count": 280,
+        "sample_count": 1500,
+        "source_dataset": "BV-BRC AMR Phenotypes 2023",
+        "year": 2023,
+        "region": "Global"
+    },
+    {
+        "organism_name": "Enterococcus faecium",
+        "drug_class": "Glycopeptide",
+        "resistant_count": 680,
+        "sample_count": 2100,
+        "source_dataset": "BV-BRC AMR Phenotypes 2023",
+        "year": 2023,
+        "region": "Global"
+    }
+]

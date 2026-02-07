@@ -1,0 +1,26 @@
+# Core
+pandas
+numpy
+biopython
+
+# Network/API
+requests
+beautifulsoup4
+
+# ML/Structure (Inference Only)
+torch
+transformers
+# esm - to be added if needed separately, often part of transformers or separate repo
+scikit-learn
+
+# API
+fastapi
+uvicorn
+python-multipart
+supabase
+httpx
+kaggle
+python-dotenv
+
+# Testing
+pytest
